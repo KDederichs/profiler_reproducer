@@ -131,6 +131,18 @@
             "config/packages/sensio_framework_extra.yaml"
         ]
     },
+    "snc/redis-bundle": {
+        "version": "4.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "2.0",
+            "ref": "36b3d9ab65be62de4e085a25e6ca899efa96b1f3"
+        },
+        "files": [
+            "config/packages/snc_redis.yaml"
+        ]
+    },
     "symfony/amqp-messenger": {
         "version": "v5.4.5"
     },
@@ -252,6 +264,18 @@
     "symfony/intl": {
         "version": "v5.4.8"
     },
+    "symfony/lock": {
+        "version": "5.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "5.2",
+            "ref": "a1c8800e40ae735206bb14586fdd6c4630a51b8d"
+        },
+        "files": [
+            "config/packages/lock.yaml"
+        ]
+    },
     "symfony/mailer": {
         "version": "5.4",
         "recipe": {
@@ -356,6 +380,9 @@
     },
     "symfony/proxy-manager-bridge": {
         "version": "v5.4.6"
+    },
+    "symfony/rate-limiter": {
+        "version": "v5.4.8"
     },
     "symfony/redis-messenger": {
         "version": "v5.4.6"
